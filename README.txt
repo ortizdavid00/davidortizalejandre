@@ -1,4 +1,4 @@
-# Portfolio Website Made by David Ortiz-Alejandre
+#Portfolio Website Made by David Ortiz-Alejandre
 HTML/CSS template website created by html5up.net | @ajlkn
 
 
@@ -17,4 +17,4 @@ ortiz.david00@gmail.com
 
 
 Visit my site:
-_ https://ortizdavid00.github.io/davidortizalejandre/ _
+https://ortizdavid00.github.io/davidortizalejandre/
