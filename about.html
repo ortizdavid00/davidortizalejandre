@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>Account Login | Durock Keyboard Mech</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.png" width="150px" alt="Durock Mech Logo"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()" />
+      </div>
+    </div>
+
+    <!----- Account Page ----->
+
+    <div class="about-page">
+      <h1 class="about-head">About Durock Keyboard Mech</h1>
+      <p class="about-info">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, vitae
+        recusandae? Earum sit dolor natus error, perferendis esse suscipit
+        doloremque fugit tempore minus alias sequi ratione soluta ex, blanditiis
+        assumenda? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+        asperiores! Impedit hic, debitis ab voluptatem quia sint eveniet
+        asperiores a porro voluptatum aspernatur laborum repellendus dicta nihil
+        dolorum eligendi modi? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nemo aut officia omnis beatae temporibus fugit dolor
+        non dolores quas quibusdam molestias iusto aliquam consectetur, nulla
+        illum aspernatur, nisi veritatis aperiam?
+      </p>
+
+      <!----- Switch Categories ----->
+
+      <div class="categories">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/switch_break_1.jpg" />
+            </div>
+            <div class="col-3">
+              <img src="images/switch_break_2.jpg" />
+            </div>
+            <div class="col-3">
+              <img src="images/switch_break_3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- Footer ----->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Donwload Our App</h3>
+            <p>Download the App for Android and iOS Devices!</p>
+            <div class="app-logo">
+              <a href="#"><img src="images/play-store.png" /></a>
+              <a href="#"><img src="images/app-store.png" /></a>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <a href="index.html"><img src="images/logo.png" /></a>
+            <p>Quality Keyboards Start with Durock.</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">Coupons</a></li>
+              <li><a href="#">Blog Post</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Join Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Reddit</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - David Ortiz-Alejandre</p>
+      </div>
+    </div>
+
+    <!--- JS For Toggle Menu --->
+
+    <script>
+      let MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menuToggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
