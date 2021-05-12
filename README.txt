@@ -1,4 +1,4 @@
-_Portfolio Website Made by David Ortiz-Alejandre_
+Portfolio Website Made by David Ortiz-Alejandre
 
 HTML/CSS template website created by html5up.net (@ajlkn)
 
